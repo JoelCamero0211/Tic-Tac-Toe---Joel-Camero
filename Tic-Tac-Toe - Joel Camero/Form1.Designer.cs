@@ -40,22 +40,25 @@
             this.buttonA1 = new System.Windows.Forms.Button();
             this.buttonC3 = new System.Windows.Forms.Button();
             this.buttonC2 = new System.Windows.Forms.Button();
-            this.buttonC1 = new System.Windows.Forms.Button();
             this.buttonB1 = new System.Windows.Forms.Button();
             this.buttonB2 = new System.Windows.Forms.Button();
             this.buttonB3 = new System.Windows.Forms.Button();
             this.buttonA3 = new System.Windows.Forms.Button();
             this.buttonA2 = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
-            this.buttonsLabel = new System.Windows.Forms.Label();
             this.displayLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.myName = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonC1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxA1
             // 
+            this.textBoxA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.textBoxA1.Location = new System.Drawing.Point(58, 96);
+            this.textBoxA1.MaxLength = 1;
+            this.textBoxA1.Multiline = false;
             this.textBoxA1.Name = "textBoxA1";
             this.textBoxA1.Size = new System.Drawing.Size(100, 96);
             this.textBoxA1.TabIndex = 0;
@@ -133,6 +136,7 @@
             this.buttonA1.TabIndex = 9;
             this.buttonA1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonA1.UseVisualStyleBackColor = true;
+            this.buttonA1.Click += new System.EventHandler(this.buttonA1_Click);
             // 
             // buttonC3
             // 
@@ -151,16 +155,6 @@
             this.buttonC2.TabIndex = 11;
             this.buttonC2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonC2.UseVisualStyleBackColor = true;
-            // 
-            // buttonC1
-            // 
-            this.buttonC1.Location = new System.Drawing.Point(422, 300);
-            this.buttonC1.Name = "buttonC1";
-            this.buttonC1.Size = new System.Drawing.Size(102, 96);
-            this.buttonC1.TabIndex = 12;
-            this.buttonC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonC1.UseVisualStyleBackColor = true;
-            this.buttonC1.Click += new System.EventHandler(this.buttonC1_Click);
             // 
             // buttonB1
             // 
@@ -216,17 +210,6 @@
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
             // 
-            // buttonsLabel
-            // 
-            this.buttonsLabel.AutoSize = true;
-            this.buttonsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F);
-            this.buttonsLabel.Location = new System.Drawing.Point(419, 399);
-            this.buttonsLabel.Name = "buttonsLabel";
-            this.buttonsLabel.Size = new System.Drawing.Size(113, 33);
-            this.buttonsLabel.TabIndex = 19;
-            this.buttonsLabel.Text = "Buttons";
-            this.buttonsLabel.Click += new System.EventHandler(this.buttonsLabel_Click);
-            // 
             // displayLabel
             // 
             this.displayLabel.AutoSize = true;
@@ -260,23 +243,42 @@
             this.myName.TabIndex = 22;
             this.myName.Text = "Made by: Joel Jonathan V. Camero";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label1.Location = new System.Drawing.Point(417, 399);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(97, 29);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Display";
+            // 
+            // buttonC1
+            // 
+            this.buttonC1.Location = new System.Drawing.Point(422, 300);
+            this.buttonC1.Name = "buttonC1";
+            this.buttonC1.Size = new System.Drawing.Size(102, 96);
+            this.buttonC1.TabIndex = 24;
+            this.buttonC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonC1.UseVisualStyleBackColor = true;
+            // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 495);
+            this.Controls.Add(this.buttonC1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.myName);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.displayLabel);
-            this.Controls.Add(this.buttonsLabel);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.buttonA2);
             this.Controls.Add(this.buttonA3);
             this.Controls.Add(this.buttonB3);
             this.Controls.Add(this.buttonB2);
             this.Controls.Add(this.buttonB1);
-            this.Controls.Add(this.buttonC1);
             this.Controls.Add(this.buttonC2);
             this.Controls.Add(this.buttonC3);
             this.Controls.Add(this.buttonA1);
@@ -310,17 +312,17 @@
         private System.Windows.Forms.Button buttonA1;
         private System.Windows.Forms.Button buttonC3;
         private System.Windows.Forms.Button buttonC2;
-        private System.Windows.Forms.Button buttonC1;
         private System.Windows.Forms.Button buttonB1;
         private System.Windows.Forms.Button buttonB2;
         private System.Windows.Forms.Button buttonB3;
         private System.Windows.Forms.Button buttonA3;
         private System.Windows.Forms.Button buttonA2;
         private System.Windows.Forms.Button resetButton;
-        private System.Windows.Forms.Label buttonsLabel;
         private System.Windows.Forms.Label displayLabel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label myName;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonC1;
     }
 }
 
