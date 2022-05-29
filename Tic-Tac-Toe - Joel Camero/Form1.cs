@@ -46,7 +46,7 @@ namespace Tic_Tac_Toe___Joel_Camero
         
         
 
-        private void buttonA1_Click(object sender, EventArgs e)
+        private void btnA1_Click(object sender, EventArgs e)
         {
             textBoxA1.Text = "x";
 
@@ -55,12 +55,12 @@ namespace Tic_Tac_Toe___Joel_Camero
                 textBoxA1.Text = "o";
           
             }
-            buttonA1.Enabled = false;
+            btnA1.Enabled = false;
             textBoxA1.Enabled = false;
 
         }
 
-        private void buttonA2_Click(object sender, EventArgs e)
+        private void btnA2_Click(object sender, EventArgs e)
         {
             textBoxA2.Text = "x";
 
@@ -69,12 +69,12 @@ namespace Tic_Tac_Toe___Joel_Camero
                 textBoxA2.Text = "o";
 
             }
-            buttonA2.Enabled = false;
+            btnA2.Enabled = false;
             textBoxA2.Enabled = false;
 
         }
 
-        private void buttonA3_Click(object sender, EventArgs e)
+        private void btnA3_Click(object sender, EventArgs e)
         {
             textBoxA3.Text = "x";
 
@@ -83,16 +83,24 @@ namespace Tic_Tac_Toe___Joel_Camero
                 textBoxA3.Text = "o";
 
             }
-            buttonA3.Enabled = false;
+            btnA3.Enabled = false;
             textBoxA3.Enabled = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnB1_Click(object sender, EventArgs e)
         {
+            textBoxB1.Text = "x";
 
+            if (playerTurn = !playerTurn)
+            {
+                textBoxB1.Text = "o";
+
+            }
+            btnB1.Enabled = false;
+            textBoxB1.Enabled = false;
         }
 
-        private void Mechanics_Click(object sender, EventArgs e)
+        private void buttonB2_Click(object sender, EventArgs e)
         {
 
         }
