@@ -247,7 +247,86 @@ namespace Tic_Tac_Toe___Joel_Camero
 
             }
 
+            //Vertical X Wins
+            if (textBoxA1.Text == "x")
+            {
+                if (textBoxB1.Text == "x")
+                {
+                    if (textBoxC1.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
+                }
+
+            }
+            if (textBoxA2.Text == "x")
+            {
+                if (textBoxB2.Text == "x")
+                {
+                    if (textBoxC2.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
+                }
+
+            }
+            if (textBoxA3.Text == "x")
+            {
+                if (textBoxB3.Text == "x")
+                {
+                    if (textBoxC3.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
+                }
+
+            }
+
+            //Vertical O Wins
+            if (textBoxA1.Text == "o")
+            {
+                if (textBoxB1.Text == "o")
+                {
+                    if (textBoxC1.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+            if (textBoxA2.Text == "o")
+            {
+                if (textBoxB2.Text == "o")
+                {
+                    if (textBoxC2.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+            if (textBoxA3.Text == "o")
+            {
+                if (textBoxB3.Text == "o")
+                {
+                    if (textBoxC3.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+
             
+
+ 
+
             //Winning conditions
 
         }
