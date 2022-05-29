@@ -166,6 +166,8 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxC3.Enabled = false;
         }
 
+
+        //Winning conditions
         private void winnerCheckButton_Click(object sender, EventArgs e)
         {
 
@@ -323,11 +325,59 @@ namespace Tic_Tac_Toe___Joel_Camero
 
             }
 
-            
+            //Diagonal X Wins
+            if (textBoxA1.Text == "x")
+            {
+                if (textBoxB2.Text == "x")
+                {
+                    if (textBoxC3.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
 
- 
+                }
 
-            //Winning conditions
+            }
+            if (textBoxA3.Text == "x")
+            {
+                if (textBoxB2.Text == "x")
+                {
+                    if (textBoxC1.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
+                }
+
+            }
+
+            //Diagonal O Wins
+            if (textBoxA1.Text == "o")
+            {
+                if (textBoxB2.Text == "o")
+                {
+                    if (textBoxC3.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+            if (textBoxA3.Text == "o")
+            {
+                if (textBoxB2.Text == "o")
+                {
+                    if (textBoxC1.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+
+
 
         }
     }
