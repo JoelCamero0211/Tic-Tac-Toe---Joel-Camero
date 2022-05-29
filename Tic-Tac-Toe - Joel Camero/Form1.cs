@@ -86,5 +86,15 @@ namespace Tic_Tac_Toe___Joel_Camero
             buttonA3.Enabled = false;
             textBoxA3.Enabled = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Mechanics_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
