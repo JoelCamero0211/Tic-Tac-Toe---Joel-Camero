@@ -37,11 +37,11 @@
             this.textBoxC3 = new System.Windows.Forms.RichTextBox();
             this.textBoxC2 = new System.Windows.Forms.RichTextBox();
             this.btnA1 = new System.Windows.Forms.Button();
-            this.buttonC3 = new System.Windows.Forms.Button();
-            this.buttonC2 = new System.Windows.Forms.Button();
+            this.btnC3 = new System.Windows.Forms.Button();
+            this.btnC2 = new System.Windows.Forms.Button();
             this.btnB1 = new System.Windows.Forms.Button();
             this.btnB2 = new System.Windows.Forms.Button();
-            this.buttonB3 = new System.Windows.Forms.Button();
+            this.btnB3 = new System.Windows.Forms.Button();
             this.btnA3 = new System.Windows.Forms.Button();
             this.btnA2 = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
@@ -49,7 +49,7 @@
             this.Title = new System.Windows.Forms.Button();
             this.myName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonC1 = new System.Windows.Forms.Button();
+            this.btnC1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.labelButtonA = new System.Windows.Forms.Label();
             this.labelButtonB = new System.Windows.Forms.Label();
@@ -156,23 +156,23 @@
             this.btnA1.UseVisualStyleBackColor = true;
             this.btnA1.Click += new System.EventHandler(this.btnA1_Click);
             // 
-            // buttonC3
+            // btnC3
             // 
-            this.buttonC3.Location = new System.Drawing.Point(758, 477);
-            this.buttonC3.Name = "buttonC3";
-            this.buttonC3.Size = new System.Drawing.Size(102, 96);
-            this.buttonC3.TabIndex = 10;
-            this.buttonC3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonC3.UseVisualStyleBackColor = true;
+            this.btnC3.Location = new System.Drawing.Point(758, 477);
+            this.btnC3.Name = "btnC3";
+            this.btnC3.Size = new System.Drawing.Size(102, 96);
+            this.btnC3.TabIndex = 10;
+            this.btnC3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnC3.UseVisualStyleBackColor = true;
             // 
-            // buttonC2
+            // btnC2
             // 
-            this.buttonC2.Location = new System.Drawing.Point(650, 477);
-            this.buttonC2.Name = "buttonC2";
-            this.buttonC2.Size = new System.Drawing.Size(102, 96);
-            this.buttonC2.TabIndex = 11;
-            this.buttonC2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonC2.UseVisualStyleBackColor = true;
+            this.btnC2.Location = new System.Drawing.Point(650, 477);
+            this.btnC2.Name = "btnC2";
+            this.btnC2.Size = new System.Drawing.Size(102, 96);
+            this.btnC2.TabIndex = 11;
+            this.btnC2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnC2.UseVisualStyleBackColor = true;
             // 
             // btnB1
             // 
@@ -194,14 +194,15 @@
             this.btnB2.UseVisualStyleBackColor = true;
             this.btnB2.Click += new System.EventHandler(this.btnB2_Click);
             // 
-            // buttonB3
+            // btnB3
             // 
-            this.buttonB3.Location = new System.Drawing.Point(758, 375);
-            this.buttonB3.Name = "buttonB3";
-            this.buttonB3.Size = new System.Drawing.Size(102, 96);
-            this.buttonB3.TabIndex = 15;
-            this.buttonB3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonB3.UseVisualStyleBackColor = true;
+            this.btnB3.Location = new System.Drawing.Point(758, 375);
+            this.btnB3.Name = "btnB3";
+            this.btnB3.Size = new System.Drawing.Size(102, 96);
+            this.btnB3.TabIndex = 15;
+            this.btnB3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnB3.UseVisualStyleBackColor = true;
+            this.btnB3.Click += new System.EventHandler(this.btnB3_Click);
             // 
             // btnA3
             // 
@@ -276,14 +277,15 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Buttons";
             // 
-            // buttonC1
+            // btnC1
             // 
-            this.buttonC1.Location = new System.Drawing.Point(542, 477);
-            this.buttonC1.Name = "buttonC1";
-            this.buttonC1.Size = new System.Drawing.Size(102, 96);
-            this.buttonC1.TabIndex = 24;
-            this.buttonC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonC1.UseVisualStyleBackColor = true;
+            this.btnC1.Location = new System.Drawing.Point(542, 477);
+            this.btnC1.Name = "btnC1";
+            this.btnC1.Size = new System.Drawing.Size(102, 96);
+            this.btnC1.TabIndex = 24;
+            this.btnC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnC1.UseVisualStyleBackColor = true;
+            this.btnC1.Click += new System.EventHandler(this.btnC1_Click);
             // 
             // label2
             // 
@@ -443,7 +445,7 @@
             this.Controls.Add(this.labelButtonB);
             this.Controls.Add(this.labelButtonA);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.buttonC1);
+            this.Controls.Add(this.btnC1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.myName);
             this.Controls.Add(this.Title);
@@ -451,11 +453,11 @@
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.btnA2);
             this.Controls.Add(this.btnA3);
-            this.Controls.Add(this.buttonB3);
+            this.Controls.Add(this.btnB3);
             this.Controls.Add(this.btnB2);
             this.Controls.Add(this.btnB1);
-            this.Controls.Add(this.buttonC2);
-            this.Controls.Add(this.buttonC3);
+            this.Controls.Add(this.btnC2);
+            this.Controls.Add(this.btnC3);
             this.Controls.Add(this.btnA1);
             this.Controls.Add(this.textBoxC2);
             this.Controls.Add(this.textBoxC3);
@@ -484,11 +486,11 @@
         private System.Windows.Forms.RichTextBox textBoxC3;
         private System.Windows.Forms.RichTextBox textBoxC2;
         private System.Windows.Forms.Button btnA1;
-        private System.Windows.Forms.Button buttonC3;
-        private System.Windows.Forms.Button buttonC2;
+        private System.Windows.Forms.Button btnC3;
+        private System.Windows.Forms.Button btnC2;
         private System.Windows.Forms.Button btnB1;
         private System.Windows.Forms.Button btnB2;
-        private System.Windows.Forms.Button buttonB3;
+        private System.Windows.Forms.Button btnB3;
         private System.Windows.Forms.Button btnA3;
         private System.Windows.Forms.Button btnA2;
         private System.Windows.Forms.Button resetButton;
@@ -496,7 +498,7 @@
         private System.Windows.Forms.Button Title;
         private System.Windows.Forms.Label myName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonC1;
+        private System.Windows.Forms.Button btnC1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelButtonA;
         private System.Windows.Forms.Label labelButtonB;

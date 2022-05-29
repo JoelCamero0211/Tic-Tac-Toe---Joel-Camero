@@ -106,11 +106,37 @@ namespace Tic_Tac_Toe___Joel_Camero
 
             if (playerTurn = !playerTurn)
             {
-                textBoxB1.Text = "o";
+                textBoxB2.Text = "o";
 
             }
             btnB2.Enabled = false;
             textBoxB2.Enabled = false;
+        }
+
+        private void btnB3_Click(object sender, EventArgs e)
+        {
+            textBoxB3.Text = "x";
+
+            if (playerTurn = !playerTurn)
+            {
+                textBoxB3.Text = "o";
+
+            }
+            btnB3.Enabled = false;
+            textBoxB3.Enabled = false;
+        }
+
+        private void btnC1_Click(object sender, EventArgs e)
+        {
+            textBoxC1.Text = "x";
+
+            if (playerTurn = !playerTurn)
+            {
+                textBoxC1.Text = "o";
+
+            }
+            btnC1.Enabled = false;
+            textBoxC1.Enabled = false;
         }
     }
 }
