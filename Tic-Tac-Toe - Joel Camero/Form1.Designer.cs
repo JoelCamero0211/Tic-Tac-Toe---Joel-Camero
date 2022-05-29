@@ -49,11 +49,13 @@
             this.resetButton = new System.Windows.Forms.Button();
             this.buttonsLabel = new System.Windows.Forms.Label();
             this.displayLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.myName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBoxA1
             // 
-            this.textBoxA1.Location = new System.Drawing.Point(58, 71);
+            this.textBoxA1.Location = new System.Drawing.Point(58, 96);
             this.textBoxA1.Name = "textBoxA1";
             this.textBoxA1.Size = new System.Drawing.Size(100, 96);
             this.textBoxA1.TabIndex = 0;
@@ -61,7 +63,7 @@
             // 
             // textBoxA2
             // 
-            this.textBoxA2.Location = new System.Drawing.Point(164, 70);
+            this.textBoxA2.Location = new System.Drawing.Point(164, 95);
             this.textBoxA2.Name = "textBoxA2";
             this.textBoxA2.Size = new System.Drawing.Size(100, 96);
             this.textBoxA2.TabIndex = 1;
@@ -69,7 +71,7 @@
             // 
             // textBoxB3
             // 
-            this.textBoxB3.Location = new System.Drawing.Point(270, 173);
+            this.textBoxB3.Location = new System.Drawing.Point(270, 198);
             this.textBoxB3.Name = "textBoxB3";
             this.textBoxB3.Size = new System.Drawing.Size(100, 96);
             this.textBoxB3.TabIndex = 2;
@@ -77,7 +79,7 @@
             // 
             // textBoxB2
             // 
-            this.textBoxB2.Location = new System.Drawing.Point(164, 172);
+            this.textBoxB2.Location = new System.Drawing.Point(164, 197);
             this.textBoxB2.Name = "textBoxB2";
             this.textBoxB2.Size = new System.Drawing.Size(100, 96);
             this.textBoxB2.TabIndex = 3;
@@ -85,7 +87,7 @@
             // 
             // textBoxB1
             // 
-            this.textBoxB1.Location = new System.Drawing.Point(58, 172);
+            this.textBoxB1.Location = new System.Drawing.Point(58, 197);
             this.textBoxB1.Name = "textBoxB1";
             this.textBoxB1.Size = new System.Drawing.Size(100, 96);
             this.textBoxB1.TabIndex = 4;
@@ -93,7 +95,7 @@
             // 
             // textBoxA3
             // 
-            this.textBoxA3.Location = new System.Drawing.Point(268, 71);
+            this.textBoxA3.Location = new System.Drawing.Point(268, 96);
             this.textBoxA3.Name = "textBoxA3";
             this.textBoxA3.Size = new System.Drawing.Size(100, 96);
             this.textBoxA3.TabIndex = 5;
@@ -101,7 +103,7 @@
             // 
             // textBoxC1
             // 
-            this.textBoxC1.Location = new System.Drawing.Point(58, 274);
+            this.textBoxC1.Location = new System.Drawing.Point(58, 299);
             this.textBoxC1.Name = "textBoxC1";
             this.textBoxC1.Size = new System.Drawing.Size(100, 96);
             this.textBoxC1.TabIndex = 6;
@@ -109,7 +111,7 @@
             // 
             // textBoxC3
             // 
-            this.textBoxC3.Location = new System.Drawing.Point(270, 274);
+            this.textBoxC3.Location = new System.Drawing.Point(270, 299);
             this.textBoxC3.Name = "textBoxC3";
             this.textBoxC3.Size = new System.Drawing.Size(100, 96);
             this.textBoxC3.TabIndex = 7;
@@ -117,7 +119,7 @@
             // 
             // textBoxC2
             // 
-            this.textBoxC2.Location = new System.Drawing.Point(164, 274);
+            this.textBoxC2.Location = new System.Drawing.Point(164, 299);
             this.textBoxC2.Name = "textBoxC2";
             this.textBoxC2.Size = new System.Drawing.Size(100, 96);
             this.textBoxC2.TabIndex = 8;
@@ -125,7 +127,7 @@
             // 
             // buttonA1
             // 
-            this.buttonA1.Location = new System.Drawing.Point(422, 71);
+            this.buttonA1.Location = new System.Drawing.Point(422, 96);
             this.buttonA1.Name = "buttonA1";
             this.buttonA1.Size = new System.Drawing.Size(102, 96);
             this.buttonA1.TabIndex = 9;
@@ -134,7 +136,7 @@
             // 
             // buttonC3
             // 
-            this.buttonC3.Location = new System.Drawing.Point(638, 275);
+            this.buttonC3.Location = new System.Drawing.Point(638, 300);
             this.buttonC3.Name = "buttonC3";
             this.buttonC3.Size = new System.Drawing.Size(102, 96);
             this.buttonC3.TabIndex = 10;
@@ -143,7 +145,7 @@
             // 
             // buttonC2
             // 
-            this.buttonC2.Location = new System.Drawing.Point(530, 275);
+            this.buttonC2.Location = new System.Drawing.Point(530, 300);
             this.buttonC2.Name = "buttonC2";
             this.buttonC2.Size = new System.Drawing.Size(102, 96);
             this.buttonC2.TabIndex = 11;
@@ -152,7 +154,7 @@
             // 
             // buttonC1
             // 
-            this.buttonC1.Location = new System.Drawing.Point(422, 275);
+            this.buttonC1.Location = new System.Drawing.Point(422, 300);
             this.buttonC1.Name = "buttonC1";
             this.buttonC1.Size = new System.Drawing.Size(102, 96);
             this.buttonC1.TabIndex = 12;
@@ -162,7 +164,7 @@
             // 
             // buttonB1
             // 
-            this.buttonB1.Location = new System.Drawing.Point(422, 173);
+            this.buttonB1.Location = new System.Drawing.Point(422, 198);
             this.buttonB1.Name = "buttonB1";
             this.buttonB1.Size = new System.Drawing.Size(102, 96);
             this.buttonB1.TabIndex = 13;
@@ -171,7 +173,7 @@
             // 
             // buttonB2
             // 
-            this.buttonB2.Location = new System.Drawing.Point(530, 173);
+            this.buttonB2.Location = new System.Drawing.Point(530, 198);
             this.buttonB2.Name = "buttonB2";
             this.buttonB2.Size = new System.Drawing.Size(102, 96);
             this.buttonB2.TabIndex = 14;
@@ -180,7 +182,7 @@
             // 
             // buttonB3
             // 
-            this.buttonB3.Location = new System.Drawing.Point(638, 173);
+            this.buttonB3.Location = new System.Drawing.Point(638, 198);
             this.buttonB3.Name = "buttonB3";
             this.buttonB3.Size = new System.Drawing.Size(102, 96);
             this.buttonB3.TabIndex = 15;
@@ -189,7 +191,7 @@
             // 
             // buttonA3
             // 
-            this.buttonA3.Location = new System.Drawing.Point(638, 70);
+            this.buttonA3.Location = new System.Drawing.Point(638, 95);
             this.buttonA3.Name = "buttonA3";
             this.buttonA3.Size = new System.Drawing.Size(102, 96);
             this.buttonA3.TabIndex = 16;
@@ -198,7 +200,7 @@
             // 
             // buttonA2
             // 
-            this.buttonA2.Location = new System.Drawing.Point(530, 71);
+            this.buttonA2.Location = new System.Drawing.Point(530, 96);
             this.buttonA2.Name = "buttonA2";
             this.buttonA2.Size = new System.Drawing.Size(102, 96);
             this.buttonA2.TabIndex = 17;
@@ -207,7 +209,7 @@
             // 
             // resetButton
             // 
-            this.resetButton.Location = new System.Drawing.Point(634, 395);
+            this.resetButton.Location = new System.Drawing.Point(638, 448);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(106, 29);
             this.resetButton.TabIndex = 18;
@@ -217,9 +219,10 @@
             // buttonsLabel
             // 
             this.buttonsLabel.AutoSize = true;
-            this.buttonsLabel.Location = new System.Drawing.Point(689, 51);
+            this.buttonsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F);
+            this.buttonsLabel.Location = new System.Drawing.Point(419, 399);
             this.buttonsLabel.Name = "buttonsLabel";
-            this.buttonsLabel.Size = new System.Drawing.Size(51, 16);
+            this.buttonsLabel.Size = new System.Drawing.Size(113, 33);
             this.buttonsLabel.TabIndex = 19;
             this.buttonsLabel.Text = "Buttons";
             this.buttonsLabel.Click += new System.EventHandler(this.buttonsLabel_Click);
@@ -227,17 +230,44 @@
             // displayLabel
             // 
             this.displayLabel.AutoSize = true;
-            this.displayLabel.Location = new System.Drawing.Point(317, 51);
+            this.displayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.displayLabel.Location = new System.Drawing.Point(55, 399);
             this.displayLabel.Name = "displayLabel";
-            this.displayLabel.Size = new System.Drawing.Size(53, 16);
+            this.displayLabel.Size = new System.Drawing.Size(97, 29);
             this.displayLabel.TabIndex = 20;
             this.displayLabel.Text = "Display";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.PowderBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Touch Of Nature", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.button1.Location = new System.Drawing.Point(208, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(362, 61);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "Tic Tac Toe";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // myName
+            // 
+            this.myName.AutoSize = true;
+            this.myName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.myName.Location = new System.Drawing.Point(12, 460);
+            this.myName.Name = "myName";
+            this.myName.Size = new System.Drawing.Size(229, 17);
+            this.myName.TabIndex = 22;
+            this.myName.Text = "Made by: Joel Jonathan V. Camero";
             // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 495);
+            this.Controls.Add(this.myName);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.displayLabel);
             this.Controls.Add(this.buttonsLabel);
             this.Controls.Add(this.resetButton);
@@ -289,6 +319,8 @@
         private System.Windows.Forms.Button resetButton;
         private System.Windows.Forms.Label buttonsLabel;
         private System.Windows.Forms.Label displayLabel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label myName;
     }
 }
 
