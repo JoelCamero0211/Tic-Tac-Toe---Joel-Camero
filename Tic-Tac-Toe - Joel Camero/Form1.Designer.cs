@@ -40,7 +40,7 @@
             this.buttonC3 = new System.Windows.Forms.Button();
             this.buttonC2 = new System.Windows.Forms.Button();
             this.btnB1 = new System.Windows.Forms.Button();
-            this.buttonB2 = new System.Windows.Forms.Button();
+            this.btnB2 = new System.Windows.Forms.Button();
             this.buttonB3 = new System.Windows.Forms.Button();
             this.btnA3 = new System.Windows.Forms.Button();
             this.btnA2 = new System.Windows.Forms.Button();
@@ -184,15 +184,15 @@
             this.btnB1.UseVisualStyleBackColor = true;
             this.btnB1.Click += new System.EventHandler(this.btnB1_Click);
             // 
-            // buttonB2
+            // btnB2
             // 
-            this.buttonB2.Location = new System.Drawing.Point(650, 375);
-            this.buttonB2.Name = "buttonB2";
-            this.buttonB2.Size = new System.Drawing.Size(102, 96);
-            this.buttonB2.TabIndex = 14;
-            this.buttonB2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonB2.UseVisualStyleBackColor = true;
-            this.buttonB2.Click += new System.EventHandler(this.buttonB2_Click);
+            this.btnB2.Location = new System.Drawing.Point(650, 375);
+            this.btnB2.Name = "btnB2";
+            this.btnB2.Size = new System.Drawing.Size(102, 96);
+            this.btnB2.TabIndex = 14;
+            this.btnB2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnB2.UseVisualStyleBackColor = true;
+            this.btnB2.Click += new System.EventHandler(this.btnB2_Click);
             // 
             // buttonB3
             // 
@@ -452,7 +452,7 @@
             this.Controls.Add(this.btnA2);
             this.Controls.Add(this.btnA3);
             this.Controls.Add(this.buttonB3);
-            this.Controls.Add(this.buttonB2);
+            this.Controls.Add(this.btnB2);
             this.Controls.Add(this.btnB1);
             this.Controls.Add(this.buttonC2);
             this.Controls.Add(this.buttonC3);
@@ -487,7 +487,7 @@
         private System.Windows.Forms.Button buttonC3;
         private System.Windows.Forms.Button buttonC2;
         private System.Windows.Forms.Button btnB1;
-        private System.Windows.Forms.Button buttonB2;
+        private System.Windows.Forms.Button btnB2;
         private System.Windows.Forms.Button buttonB3;
         private System.Windows.Forms.Button btnA3;
         private System.Windows.Forms.Button btnA2;
