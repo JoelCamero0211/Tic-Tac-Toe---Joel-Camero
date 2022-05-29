@@ -14,7 +14,7 @@ namespace Tic_Tac_Toe___Joel_Camero
     {
         //Player turns using Boolean 
         Boolean playerTurn = false;
-        
+
         public TicTacToe()
         {
             InitializeComponent();
@@ -42,9 +42,12 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxC2.SelectionAlignment = HorizontalAlignment.Center;
             textBoxC3.SelectAll();
             textBoxC3.SelectionAlignment = HorizontalAlignment.Center;
+
+            //check for winners
+
         }
-        
-        
+
+
 
         private void btnA1_Click(object sender, EventArgs e)
         {
@@ -53,7 +56,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             if (playerTurn = !playerTurn)
             {
                 textBoxA1.Text = "o";
-          
+
             }
             btnA1.Enabled = false;
             textBoxA1.Enabled = false;
@@ -164,6 +167,32 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxC3.Enabled = false;
         }
 
-        
+        //Winning conditions
+        private void winnerCheck_Click(object sender, EventArgs e)
+        {
+            //Horizontal Wins
+            if (textBoxA1.Text == textBoxA2.Text)
+            {
+                if (textBoxA2.Text == textBoxA3.Text)
+                {
+                    MessageBox.Show("You Win!!"); 
+                }
+            }
+            if (textBoxB1.Text == textBoxB2.Text)
+            {
+                if (textBoxB2.Text == textBoxB3.Text)
+                {
+                    MessageBox.Show("You Win!!");
+                }
+            }
+            if (textBoxC1.Text == textBoxC2.Text)
+            {
+                if (textBoxC2.Text == textBoxC3.Text)
+                {
+                    MessageBox.Show("You Win!!");
+                }
+            }
+        }
     }
+    //MessageBox.Show("You win!!");
 }
