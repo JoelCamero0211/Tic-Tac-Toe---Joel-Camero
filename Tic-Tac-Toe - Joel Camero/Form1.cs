@@ -47,7 +47,7 @@ namespace Tic_Tac_Toe___Joel_Camero
         }
 
 
-
+        //Button row A
         private void btnA1_Click(object sender, EventArgs e)
         {
             textBoxA1.Text = "x";
@@ -89,6 +89,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxA3.Enabled = false;
         }
 
+        //Button row B
         private void btnB1_Click(object sender, EventArgs e)
         {
             textBoxB1.Text = "x";
@@ -127,6 +128,8 @@ namespace Tic_Tac_Toe___Joel_Camero
             btnB3.Enabled = false;
             textBoxB3.Enabled = false;
         }
+
+        //Button row C
         private void btnC1_Click(object sender, EventArgs e)
         {
             textBoxC1.Text = "x";
@@ -376,6 +379,23 @@ namespace Tic_Tac_Toe___Joel_Camero
                 }
 
             }
+
+
+
+        }
+
+        private void resetButton_Click(object sender, EventArgs e)
+        {
+            //A row
+            textBoxA1.Clear();
+            textBoxA1.Enabled = true;
+            btnA1.Enabled = true;
+            textBoxA2.Clear();
+            textBoxA2.Enabled = true;
+            btnA2.Enabled = true;
+            textBoxA3.Clear();
+            textBoxA3.Enabled = true;
+            btnA3.Enabled = true;
 
 
 
