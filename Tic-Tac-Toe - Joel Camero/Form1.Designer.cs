@@ -55,8 +55,12 @@
             // 
             // textBoxA1
             // 
-            this.textBoxA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.textBoxA1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxA1.Location = new System.Drawing.Point(58, 96);
+            this.textBoxA1.Margin = new System.Windows.Forms.Padding(3, 3, 5, 3);
             this.textBoxA1.MaxLength = 1;
             this.textBoxA1.Multiline = false;
             this.textBoxA1.Name = "textBoxA1";
@@ -66,6 +70,7 @@
             // 
             // textBoxA2
             // 
+            this.textBoxA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxA2.Location = new System.Drawing.Point(164, 95);
             this.textBoxA2.Name = "textBoxA2";
             this.textBoxA2.Size = new System.Drawing.Size(100, 96);
@@ -200,6 +205,7 @@
             this.buttonA2.TabIndex = 17;
             this.buttonA2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonA2.UseVisualStyleBackColor = true;
+            this.buttonA2.Click += new System.EventHandler(this.buttonA2_Click);
             // 
             // resetButton
             // 
