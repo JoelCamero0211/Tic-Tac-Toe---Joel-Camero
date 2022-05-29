@@ -37,7 +37,7 @@
             this.textBoxC3 = new System.Windows.Forms.RichTextBox();
             this.textBoxC2 = new System.Windows.Forms.RichTextBox();
             this.btnA1 = new System.Windows.Forms.Button();
-            this.btnC3 = new System.Windows.Forms.Button();
+            this.btnC31 = new System.Windows.Forms.Button();
             this.btnC2 = new System.Windows.Forms.Button();
             this.btnB1 = new System.Windows.Forms.Button();
             this.btnB2 = new System.Windows.Forms.Button();
@@ -49,7 +49,7 @@
             this.Title = new System.Windows.Forms.Button();
             this.myName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnC1 = new System.Windows.Forms.Button();
+            this.btnC3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.labelButtonA = new System.Windows.Forms.Label();
             this.labelButtonB = new System.Windows.Forms.Label();
@@ -156,14 +156,14 @@
             this.btnA1.UseVisualStyleBackColor = true;
             this.btnA1.Click += new System.EventHandler(this.btnA1_Click);
             // 
-            // btnC3
+            // btnC31
             // 
-            this.btnC3.Location = new System.Drawing.Point(758, 477);
-            this.btnC3.Name = "btnC3";
-            this.btnC3.Size = new System.Drawing.Size(102, 96);
-            this.btnC3.TabIndex = 10;
-            this.btnC3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnC3.UseVisualStyleBackColor = true;
+            this.btnC31.Location = new System.Drawing.Point(542, 477);
+            this.btnC31.Name = "btnC31";
+            this.btnC31.Size = new System.Drawing.Size(102, 96);
+            this.btnC31.TabIndex = 10;
+            this.btnC31.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnC31.UseVisualStyleBackColor = true;
             // 
             // btnC2
             // 
@@ -277,15 +277,15 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Buttons";
             // 
-            // btnC1
+            // btnC3
             // 
-            this.btnC1.Location = new System.Drawing.Point(542, 477);
-            this.btnC1.Name = "btnC1";
-            this.btnC1.Size = new System.Drawing.Size(102, 96);
-            this.btnC1.TabIndex = 24;
-            this.btnC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnC1.UseVisualStyleBackColor = true;
-            this.btnC1.Click += new System.EventHandler(this.btnC1_Click);
+            this.btnC3.Location = new System.Drawing.Point(758, 477);
+            this.btnC3.Name = "btnC3";
+            this.btnC3.Size = new System.Drawing.Size(102, 96);
+            this.btnC3.TabIndex = 24;
+            this.btnC3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnC3.UseVisualStyleBackColor = true;
+            this.btnC3.Click += new System.EventHandler(this.btnC3_Click);
             // 
             // label2
             // 
@@ -445,7 +445,7 @@
             this.Controls.Add(this.labelButtonB);
             this.Controls.Add(this.labelButtonA);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnC1);
+            this.Controls.Add(this.btnC3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.myName);
             this.Controls.Add(this.Title);
@@ -457,7 +457,7 @@
             this.Controls.Add(this.btnB2);
             this.Controls.Add(this.btnB1);
             this.Controls.Add(this.btnC2);
-            this.Controls.Add(this.btnC3);
+            this.Controls.Add(this.btnC31);
             this.Controls.Add(this.btnA1);
             this.Controls.Add(this.textBoxC2);
             this.Controls.Add(this.textBoxC3);
@@ -486,7 +486,7 @@
         private System.Windows.Forms.RichTextBox textBoxC3;
         private System.Windows.Forms.RichTextBox textBoxC2;
         private System.Windows.Forms.Button btnA1;
-        private System.Windows.Forms.Button btnC3;
+        private System.Windows.Forms.Button btnC31;
         private System.Windows.Forms.Button btnC2;
         private System.Windows.Forms.Button btnB1;
         private System.Windows.Forms.Button btnB2;
@@ -498,7 +498,7 @@
         private System.Windows.Forms.Button Title;
         private System.Windows.Forms.Label myName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnC1;
+        private System.Windows.Forms.Button btnC3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelButtonA;
         private System.Windows.Forms.Label labelButtonB;
