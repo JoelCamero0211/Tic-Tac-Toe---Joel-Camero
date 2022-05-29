@@ -407,6 +407,17 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxB3.Enabled = true;
             btnB3.Enabled = true;
                 textBoxB3.Clear();
+
+            //C row
+            textBoxC1.Enabled = true;
+            btnC1.Enabled = true;
+                textBoxC1.Clear();
+            textBoxC2.Enabled = true;
+            btnC2.Enabled = true;
+                textBoxC2.Clear();
+            textBoxC3.Enabled = true;
+            btnC3.Enabled = true;
+                textBoxC3.Clear();
         }
     }
 }
