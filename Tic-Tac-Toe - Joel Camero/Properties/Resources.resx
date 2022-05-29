@@ -121,4 +121,7 @@
   <data name="mechanics pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mechanics pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mechanics pic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanics pic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

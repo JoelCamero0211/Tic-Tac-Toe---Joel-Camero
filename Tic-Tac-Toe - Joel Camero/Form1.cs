@@ -15,6 +15,11 @@ namespace Tic_Tac_Toe___Joel_Camero
         //Player turns using Boolean 
         Boolean playerTurn = false;
 
+        //Winner Variable
+        String playerWinnerX = "Player X Wins!!";
+        String playerWinnerO = "Player O Wins!!";
+        
+
         public TicTacToe()
         {
             InitializeComponent();
@@ -43,11 +48,11 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxC3.SelectAll();
             textBoxC3.SelectionAlignment = HorizontalAlignment.Center;
 
-
+            
         }
 
 
-        //Button row A
+        //Buttons for row A
         private void btnA1_Click(object sender, EventArgs e)
         {
             textBoxA1.Text = "x";
@@ -170,18 +175,18 @@ namespace Tic_Tac_Toe___Joel_Camero
         }
 
 
-        //Winning conditions
+        //Winner conditions
         private void winnerCheckButton_Click(object sender, EventArgs e)
         {
 
-            //Horizontal X Wins
+            //Player X wins in a Horizontal way
             if (textBoxA1.Text == "x")
             {
                 if (textBoxA2.Text == "x")
                 {
                     if (textBoxA3.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
@@ -193,7 +198,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxB3.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
@@ -205,21 +210,21 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC3.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
 
             }
 
-            //Horizontal O wins
+            //Player O wins in a Horizontal way
             if (textBoxA1.Text == "o")
             {
                 if (textBoxA2.Text == "o")
                 {
                     if (textBoxA3.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
@@ -232,7 +237,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxB3.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
@@ -245,21 +250,21 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC3.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
 
             }
 
-            //Vertical X Wins
+            //Player X wins in a Vertical way
             if (textBoxA1.Text == "x")
             {
                 if (textBoxB1.Text == "x")
                 {
                     if (textBoxC1.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
@@ -271,7 +276,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC2.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
@@ -283,21 +288,21 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC3.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
 
             }
 
-            //Vertical O Wins
+            //Player O wins in a Vertical way
             if (textBoxA1.Text == "o")
             {
                 if (textBoxB1.Text == "o")
                 {
                     if (textBoxC1.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
@@ -309,7 +314,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC2.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
@@ -321,21 +326,21 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC3.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
 
             }
 
-            //Diagonal X Wins
+            //Player X wins in a Diagonal way
             if (textBoxA1.Text == "x")
             {
                 if (textBoxB2.Text == "x")
                 {
                     if (textBoxC3.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
@@ -347,21 +352,21 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC1.Text == "x")
                     {
-                        MessageBox.Show("Player X Wins!!");
+                        MessageBox.Show(playerWinnerX);
                     }
 
                 }
 
             }
 
-            //Diagonal O Wins
+            //Player O wins in a Diagonal way
             if (textBoxA1.Text == "o")
             {
                 if (textBoxB2.Text == "o")
                 {
                     if (textBoxC3.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
@@ -373,52 +378,55 @@ namespace Tic_Tac_Toe___Joel_Camero
                 {
                     if (textBoxC1.Text == "o")
                     {
-                        MessageBox.Show("Player O Wins!!");
+                        MessageBox.Show(playerWinnerO);
                     }
 
                 }
 
             }
-
-
-
-        }
+            }
 
         private void resetBtn_Click(object sender, EventArgs e)
         {
             //A row
             textBoxA1.Enabled = true;
             btnA1.Enabled = true;
-                textBoxA1.Clear();
+            textBoxA1.Clear();
             textBoxA2.Enabled = true;
             btnA2.Enabled = true;
-                textBoxA2.Clear();
+            textBoxA2.Clear();
             textBoxA3.Enabled = true;
             btnA3.Enabled = true;
-                textBoxA3.Clear();
+            textBoxA3.Clear();
 
             //B row
             textBoxB1.Enabled = true;
             btnB1.Enabled = true;
-                textBoxB1.Clear();
+            textBoxB1.Clear();
             textBoxB2.Enabled = true;
             btnB2.Enabled = true;
-                textBoxB2.Clear();
+            textBoxB2.Clear();
             textBoxB3.Enabled = true;
             btnB3.Enabled = true;
-                textBoxB3.Clear();
+            textBoxB3.Clear();
 
             //C row
             textBoxC1.Enabled = true;
             btnC1.Enabled = true;
-                textBoxC1.Clear();
+            textBoxC1.Clear();
             textBoxC2.Enabled = true;
             btnC2.Enabled = true;
-                textBoxC2.Clear();
+            textBoxC2.Clear();
             textBoxC3.Enabled = true;
             btnC3.Enabled = true;
-                textBoxC3.Clear();
+            textBoxC3.Clear();
+
+            playerTurn = !playerTurn;
         }
+
     }
-}
+    
+       
+    }
+
 
