@@ -79,6 +79,7 @@
             // 
             // textBoxB3
             // 
+            this.textBoxB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxB3.Location = new System.Drawing.Point(270, 198);
             this.textBoxB3.Name = "textBoxB3";
             this.textBoxB3.Size = new System.Drawing.Size(100, 96);
@@ -87,6 +88,7 @@
             // 
             // textBoxB2
             // 
+            this.textBoxB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxB2.Location = new System.Drawing.Point(164, 197);
             this.textBoxB2.Name = "textBoxB2";
             this.textBoxB2.Size = new System.Drawing.Size(100, 96);
@@ -95,6 +97,7 @@
             // 
             // textBoxB1
             // 
+            this.textBoxB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxB1.Location = new System.Drawing.Point(58, 197);
             this.textBoxB1.Name = "textBoxB1";
             this.textBoxB1.Size = new System.Drawing.Size(100, 96);
@@ -103,6 +106,7 @@
             // 
             // textBoxA3
             // 
+            this.textBoxA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxA3.Location = new System.Drawing.Point(268, 96);
             this.textBoxA3.Name = "textBoxA3";
             this.textBoxA3.Size = new System.Drawing.Size(100, 96);
@@ -111,6 +115,7 @@
             // 
             // textBoxC1
             // 
+            this.textBoxC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxC1.Location = new System.Drawing.Point(58, 299);
             this.textBoxC1.Name = "textBoxC1";
             this.textBoxC1.Size = new System.Drawing.Size(100, 96);
@@ -119,6 +124,7 @@
             // 
             // textBoxC3
             // 
+            this.textBoxC3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxC3.Location = new System.Drawing.Point(270, 299);
             this.textBoxC3.Name = "textBoxC3";
             this.textBoxC3.Size = new System.Drawing.Size(100, 96);
@@ -127,6 +133,7 @@
             // 
             // textBoxC2
             // 
+            this.textBoxC2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.textBoxC2.Location = new System.Drawing.Point(164, 299);
             this.textBoxC2.Name = "textBoxC2";
             this.textBoxC2.Size = new System.Drawing.Size(100, 96);
@@ -196,6 +203,7 @@
             this.buttonA3.TabIndex = 16;
             this.buttonA3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonA3.UseVisualStyleBackColor = true;
+            this.buttonA3.Click += new System.EventHandler(this.buttonA3_Click);
             // 
             // buttonA2
             // 
