@@ -1,0 +1,11 @@
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\bin\Debug\Tic-Tac-Toe - Joel Camero.exe.config
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\bin\Debug\Tic-Tac-Toe - Joel Camero.exe
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\bin\Debug\Tic-Tac-Toe - Joel Camero.pdb
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic-Tac-Toe - Joel Camero.csproj.AssemblyReference.cache
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic-Tac-Toe - Joel Camero.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic_Tac_Toe___Joel_Camero.TicTacToe.resources
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic_Tac_Toe___Joel_Camero.Properties.Resources.resources
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic-Tac-Toe - Joel Camero.csproj.GenerateResource.cache
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic-Tac-Toe - Joel Camero.csproj.CoreCompileInputs.cache
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic-Tac-Toe - Joel Camero.exe
+C:\Users\Jr\source\repos\Tic-Tac-Toe - Joel Camero\Tic-Tac-Toe - Joel Camero\obj\Debug\Tic-Tac-Toe - Joel Camero.pdb

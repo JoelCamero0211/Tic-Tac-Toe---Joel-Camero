@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Tic_Tac_Toe___Joel_Camero
 {
-    public partial class Form1 : Form
+    public partial class TicTacToe : Form
     {
-        public Form1()
+        public TicTacToe()
         {
             InitializeComponent();
+        }
+
+        private void buttonC1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonsLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
