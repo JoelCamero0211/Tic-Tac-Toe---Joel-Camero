@@ -125,6 +125,18 @@ namespace Tic_Tac_Toe___Joel_Camero
             btnB3.Enabled = false;
             textBoxB3.Enabled = false;
         }
+        private void btnC1_Click(object sender, EventArgs e)
+        {
+            textBoxC1.Text = "x";
+
+            if (playerTurn = !playerTurn)
+            {
+                textBoxC1.Text = "o";
+
+            }
+            btnC1.Enabled = false;
+            textBoxC1.Enabled = false;
+        }
 
         private void btnC2_Click(object sender, EventArgs e)
         {
@@ -151,5 +163,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             btnC3.Enabled = false;
             textBoxC3.Enabled = false;
         }
+
+        
     }
 }

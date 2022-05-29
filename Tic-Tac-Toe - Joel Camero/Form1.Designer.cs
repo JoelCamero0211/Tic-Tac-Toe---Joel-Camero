@@ -173,6 +173,7 @@
             this.btnC1.TabIndex = 10;
             this.btnC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnC1.UseVisualStyleBackColor = true;
+            this.btnC1.Click += new System.EventHandler(this.btnC1_Click);
             // 
             // btnC2
             // 
