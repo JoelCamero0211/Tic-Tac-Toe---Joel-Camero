@@ -307,6 +307,7 @@
             this.btnC3.TabIndex = 24;
             this.btnC3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnC3.UseVisualStyleBackColor = true;
+            this.btnC3.Click += new System.EventHandler(this.btnC3_Click);
             // 
             // label2
             // 
