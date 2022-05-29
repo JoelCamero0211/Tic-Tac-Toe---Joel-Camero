@@ -65,7 +65,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBoxB1 = new System.Windows.Forms.RichTextBox();
-            this.winnerCheck = new System.Windows.Forms.Button();
+            this.winnerCheckButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -447,15 +447,16 @@
             this.textBoxB1.TabIndex = 39;
             this.textBoxB1.Text = "";
             // 
-            // winnerCheck
+            // winnerCheckButton
             // 
-            this.winnerCheck.Location = new System.Drawing.Point(529, 636);
-            this.winnerCheck.Name = "winnerCheck";
-            this.winnerCheck.Size = new System.Drawing.Size(164, 23);
-            this.winnerCheck.TabIndex = 40;
-            this.winnerCheck.Text = "Check for a Winner";
-            this.winnerCheck.UseVisualStyleBackColor = true;
-            this.winnerCheck.Click += new System.EventHandler(this.winnerCheck_Click);
+            this.winnerCheckButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.winnerCheckButton.Location = new System.Drawing.Point(519, 620);
+            this.winnerCheckButton.Name = "winnerCheckButton";
+            this.winnerCheckButton.Size = new System.Drawing.Size(197, 46);
+            this.winnerCheckButton.TabIndex = 40;
+            this.winnerCheckButton.Text = "Check for a Winner";
+            this.winnerCheckButton.UseVisualStyleBackColor = true;
+            this.winnerCheckButton.Click += new System.EventHandler(this.winnerCheckButton_Click);
             // 
             // TicTacToe
             // 
@@ -463,7 +464,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1012, 699);
-            this.Controls.Add(this.winnerCheck);
+            this.Controls.Add(this.winnerCheckButton);
             this.Controls.Add(this.textBoxB1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
@@ -549,7 +550,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RichTextBox textBoxB1;
-        private System.Windows.Forms.Button winnerCheck;
+        private System.Windows.Forms.Button winnerCheckButton;
     }
 }
 

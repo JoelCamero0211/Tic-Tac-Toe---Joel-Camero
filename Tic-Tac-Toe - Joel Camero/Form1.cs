@@ -43,7 +43,6 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxC3.SelectAll();
             textBoxC3.SelectionAlignment = HorizontalAlignment.Center;
 
-            //check for winners
 
         }
 
@@ -167,32 +166,91 @@ namespace Tic_Tac_Toe___Joel_Camero
             textBoxC3.Enabled = false;
         }
 
-        //Winning conditions
-        private void winnerCheck_Click(object sender, EventArgs e)
+        private void winnerCheckButton_Click(object sender, EventArgs e)
         {
-            //Horizontal Wins
-            if (textBoxA1.Text == textBoxA2.Text)
+
+            //Horizontal X Wins
+            if (textBoxA1.Text == "x")
             {
-                if (textBoxA2.Text == textBoxA3.Text)
+                if (textBoxA2.Text == "x")
                 {
-                    MessageBox.Show("You Win!!"); 
+                    if (textBoxA3.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
                 }
+
             }
-            if (textBoxB1.Text == textBoxB2.Text)
+            if (textBoxB1.Text == "x")
             {
-                if (textBoxB2.Text == textBoxB3.Text)
+                if (textBoxB2.Text == "x")
                 {
-                    MessageBox.Show("You Win!!");
+                    if (textBoxB3.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
                 }
+
             }
-            if (textBoxC1.Text == textBoxC2.Text)
+            if (textBoxC1.Text == "x")
             {
-                if (textBoxC2.Text == textBoxC3.Text)
+                if (textBoxC2.Text == "x")
                 {
-                    MessageBox.Show("You Win!!");
+                    if (textBoxC3.Text == "x")
+                    {
+                        MessageBox.Show("Player X Wins!!");
+                    }
+
                 }
+
             }
+
+            //Horizontal O wins
+            if (textBoxA1.Text == "o")
+            {
+                if (textBoxA2.Text == "o")
+                {
+                    if (textBoxA3.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+
+            if (textBoxB1.Text == "o")
+            {
+                if (textBoxB2.Text == "o")
+                {
+                    if (textBoxB3.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+
+            if (textBoxC1.Text == "o")
+            {
+                if (textBoxC2.Text == "o")
+                {
+                    if (textBoxC3.Text == "o")
+                    {
+                        MessageBox.Show("Player O Wins!!");
+                    }
+
+                }
+
+            }
+
+            
+            //Winning conditions
+
         }
     }
-    //MessageBox.Show("You win!!");
 }
+
