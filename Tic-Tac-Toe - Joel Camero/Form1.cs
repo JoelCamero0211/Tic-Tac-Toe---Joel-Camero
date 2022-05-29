@@ -384,21 +384,29 @@ namespace Tic_Tac_Toe___Joel_Camero
 
         }
 
-        private void resetButton_Click(object sender, EventArgs e)
+        private void resetBtn_Click(object sender, EventArgs e)
         {
             //A row
-            textBoxA1.Clear();
             textBoxA1.Enabled = true;
             btnA1.Enabled = true;
-            textBoxA2.Clear();
+                textBoxA1.Clear();
             textBoxA2.Enabled = true;
             btnA2.Enabled = true;
-            textBoxA3.Clear();
+                textBoxA2.Clear();
             textBoxA3.Enabled = true;
             btnA3.Enabled = true;
+                textBoxA3.Clear();
 
-
-
+            //B row
+            textBoxB1.Enabled = true;
+            btnB1.Enabled = true;
+                textBoxB1.Clear();
+            textBoxB2.Enabled = true;
+            btnB2.Enabled = true;
+                textBoxB2.Clear();
+            textBoxB3.Enabled = true;
+            btnB3.Enabled = true;
+                textBoxB3.Clear();
         }
     }
 }

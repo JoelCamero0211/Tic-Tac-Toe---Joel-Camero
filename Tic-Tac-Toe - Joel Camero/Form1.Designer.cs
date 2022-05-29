@@ -44,7 +44,7 @@
             this.btnB3 = new System.Windows.Forms.Button();
             this.btnA3 = new System.Windows.Forms.Button();
             this.btnA2 = new System.Windows.Forms.Button();
-            this.resetButton = new System.Windows.Forms.Button();
+            this.resetBtn = new System.Windows.Forms.Button();
             this.displayLabel = new System.Windows.Forms.Label();
             this.Title = new System.Windows.Forms.Button();
             this.myName = new System.Windows.Forms.Label();
@@ -242,16 +242,16 @@
             this.btnA2.UseVisualStyleBackColor = true;
             this.btnA2.Click += new System.EventHandler(this.btnA2_Click);
             // 
-            // resetButton
+            // resetBtn
             // 
-            this.resetButton.Location = new System.Drawing.Point(755, 636);
-            this.resetButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(107, 30);
-            this.resetButton.TabIndex = 18;
-            this.resetButton.Text = "Reset";
-            this.resetButton.UseVisualStyleBackColor = true;
-            this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
+            this.resetBtn.Location = new System.Drawing.Point(755, 636);
+            this.resetBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.resetBtn.Name = "resetBtn";
+            this.resetBtn.Size = new System.Drawing.Size(107, 30);
+            this.resetBtn.TabIndex = 18;
+            this.resetBtn.Text = "Reset";
+            this.resetBtn.UseVisualStyleBackColor = true;
+            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
             // 
             // displayLabel
             // 
@@ -486,7 +486,7 @@
             this.Controls.Add(this.myName);
             this.Controls.Add(this.Title);
             this.Controls.Add(this.displayLabel);
-            this.Controls.Add(this.resetButton);
+            this.Controls.Add(this.resetBtn);
             this.Controls.Add(this.btnA2);
             this.Controls.Add(this.btnA3);
             this.Controls.Add(this.btnB3);
@@ -530,7 +530,7 @@
         private System.Windows.Forms.Button btnB3;
         private System.Windows.Forms.Button btnA3;
         private System.Windows.Forms.Button btnA2;
-        private System.Windows.Forms.Button resetButton;
+        private System.Windows.Forms.Button resetBtn;
         private System.Windows.Forms.Label displayLabel;
         private System.Windows.Forms.Button Title;
         private System.Windows.Forms.Label myName;
