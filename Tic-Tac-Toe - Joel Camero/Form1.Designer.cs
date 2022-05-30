@@ -80,17 +80,17 @@
             this.textBoxA1.MaxLength = 1;
             this.textBoxA1.Multiline = false;
             this.textBoxA1.Name = "textBoxA1";
-            this.textBoxA1.Size = new System.Drawing.Size(102, 96);
+            this.textBoxA1.Size = new System.Drawing.Size(100, 95);
             this.textBoxA1.TabIndex = 0;
             this.textBoxA1.Text = "";
             // 
             // textBoxA2
             // 
             this.textBoxA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
-            this.textBoxA2.Location = new System.Drawing.Point(246, 303);
+            this.textBoxA2.Location = new System.Drawing.Point(246, 304);
             this.textBoxA2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxA2.Name = "textBoxA2";
-            this.textBoxA2.Size = new System.Drawing.Size(100, 96);
+            this.textBoxA2.Size = new System.Drawing.Size(100, 95);
             this.textBoxA2.TabIndex = 1;
             this.textBoxA2.Text = "";
             // 
@@ -117,10 +117,10 @@
             // textBoxA3
             // 
             this.textBoxA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
-            this.textBoxA3.Location = new System.Drawing.Point(350, 304);
+            this.textBoxA3.Location = new System.Drawing.Point(352, 304);
             this.textBoxA3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxA3.Name = "textBoxA3";
-            this.textBoxA3.Size = new System.Drawing.Size(103, 96);
+            this.textBoxA3.Size = new System.Drawing.Size(101, 96);
             this.textBoxA3.TabIndex = 5;
             this.textBoxA3.Text = "";
             // 
