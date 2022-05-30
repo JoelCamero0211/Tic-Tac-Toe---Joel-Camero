@@ -175,11 +175,11 @@ namespace Tic_Tac_Toe___Joel_Camero
         }
 
 
-        //Winner conditions
+        //Conditions for winning
         private void winnerCheckButton_Click(object sender, EventArgs e)
         {
 
-            //Player X wins in a Horizontal way
+        //Player X wins in a Horizontal way
             if (textBoxA1.Text == "x")
             {
                 if (textBoxA2.Text == "x")
@@ -242,6 +242,8 @@ namespace Tic_Tac_Toe___Joel_Camero
 
                 }
 
+
+
             }
 
             if (textBoxC1.Text == "o")
@@ -268,6 +270,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                     }
 
                 }
+               
 
             }
             if (textBoxA2.Text == "x")
@@ -306,6 +309,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                     }
 
                 }
+               
 
             }
             if (textBoxA2.Text == "o")
@@ -319,6 +323,7 @@ namespace Tic_Tac_Toe___Joel_Camero
 
                 }
 
+
             }
             if (textBoxA3.Text == "o")
             {
@@ -330,7 +335,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                     }
 
                 }
-
+          
             }
 
             //Player X wins in a Diagonal way
@@ -344,6 +349,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                     }
 
                 }
+                
 
             }
             if (textBoxA3.Text == "x")
@@ -371,6 +377,7 @@ namespace Tic_Tac_Toe___Joel_Camero
 
                 }
 
+
             }
             if (textBoxA3.Text == "o")
             {
@@ -384,6 +391,7 @@ namespace Tic_Tac_Toe___Joel_Camero
                 }
 
             }
+           
             }
 
         private void resetBtn_Click(object sender, EventArgs e)
@@ -391,35 +399,35 @@ namespace Tic_Tac_Toe___Joel_Camero
             //A row
             textBoxA1.Enabled = true;
             btnA1.Enabled = true;
-            textBoxA1.Clear();
+                textBoxA1.Clear();
             textBoxA2.Enabled = true;
             btnA2.Enabled = true;
-            textBoxA2.Clear();
+                textBoxA2.Clear();
             textBoxA3.Enabled = true;
             btnA3.Enabled = true;
-            textBoxA3.Clear();
-
+                textBoxA3.Clear();
+            
             //B row
             textBoxB1.Enabled = true;
             btnB1.Enabled = true;
-            textBoxB1.Clear();
+                textBoxB1.Clear();
             textBoxB2.Enabled = true;
             btnB2.Enabled = true;
-            textBoxB2.Clear();
+                textBoxB2.Clear();
             textBoxB3.Enabled = true;
             btnB3.Enabled = true;
-            textBoxB3.Clear();
+                textBoxB3.Clear();
 
             //C row
             textBoxC1.Enabled = true;
             btnC1.Enabled = true;
-            textBoxC1.Clear();
+                textBoxC1.Clear();
             textBoxC2.Enabled = true;
             btnC2.Enabled = true;
-            textBoxC2.Clear();
+                textBoxC2.Clear();
             textBoxC3.Enabled = true;
             btnC3.Enabled = true;
-            textBoxC3.Clear();
+                textBoxC3.Clear();
 
             playerTurn = !playerTurn;
         }

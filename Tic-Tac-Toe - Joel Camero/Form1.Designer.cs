@@ -80,7 +80,7 @@
             this.textBoxA1.MaxLength = 1;
             this.textBoxA1.Multiline = false;
             this.textBoxA1.Name = "textBoxA1";
-            this.textBoxA1.Size = new System.Drawing.Size(97, 96);
+            this.textBoxA1.Size = new System.Drawing.Size(102, 96);
             this.textBoxA1.TabIndex = 0;
             this.textBoxA1.Text = "";
             // 
@@ -178,7 +178,7 @@
             // 
             // btnC2
             // 
-            this.btnC2.Location = new System.Drawing.Point(652, 509);
+            this.btnC2.Location = new System.Drawing.Point(649, 509);
             this.btnC2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnC2.Name = "btnC2";
             this.btnC2.Size = new System.Drawing.Size(101, 96);
@@ -200,7 +200,7 @@
             // 
             // btnB2
             // 
-            this.btnB2.Location = new System.Drawing.Point(652, 406);
+            this.btnB2.Location = new System.Drawing.Point(649, 406);
             this.btnB2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnB2.Name = "btnB2";
             this.btnB2.Size = new System.Drawing.Size(101, 96);
@@ -233,7 +233,7 @@
             // 
             // btnA2
             // 
-            this.btnA2.Location = new System.Drawing.Point(652, 304);
+            this.btnA2.Location = new System.Drawing.Point(649, 303);
             this.btnA2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnA2.Name = "btnA2";
             this.btnA2.Size = new System.Drawing.Size(101, 96);
@@ -450,11 +450,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Tic_Tac_Toe___Joel_Camero.Properties.Resources.mechanics_pic1;
-            this.pictureBox1.Location = new System.Drawing.Point(187, 91);
+            this.pictureBox1.Image = global::Tic_Tac_Toe___Joel_Camero.Properties.Resources.mechanics_pic2;
+            this.pictureBox1.Location = new System.Drawing.Point(163, 91);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(625, 173);
+            this.pictureBox1.Size = new System.Drawing.Size(672, 173);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
