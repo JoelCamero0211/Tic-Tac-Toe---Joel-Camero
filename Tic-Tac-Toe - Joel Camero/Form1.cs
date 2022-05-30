@@ -64,7 +64,9 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnA1.Enabled = false;
             textBoxA1.Enabled = false;
-
+            btnA1.BackColor = Color.FromArgb(255, 192, 192);
+            
+            //
         }
 
         private void btnA2_Click(object sender, EventArgs e)
@@ -78,7 +80,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnA2.Enabled = false;
             textBoxA2.Enabled = false;
-
+            btnA2.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         private void btnA3_Click(object sender, EventArgs e)
@@ -92,6 +94,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnA3.Enabled = false;
             textBoxA3.Enabled = false;
+            btnA3.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         //Button row B
@@ -106,6 +109,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnB1.Enabled = false;
             textBoxB1.Enabled = false;
+            btnB1.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         private void btnB2_Click(object sender, EventArgs e)
@@ -119,6 +123,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnB2.Enabled = false;
             textBoxB2.Enabled = false;
+            btnB2.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         private void btnB3_Click(object sender, EventArgs e)
@@ -132,6 +137,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnB3.Enabled = false;
             textBoxB3.Enabled = false;
+            btnB3.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         //Button row C
@@ -146,6 +152,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnC1.Enabled = false;
             textBoxC1.Enabled = false;
+            btnC1.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         private void btnC2_Click(object sender, EventArgs e)
@@ -159,6 +166,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnC2.Enabled = false;
             textBoxC2.Enabled = false;
+            btnC2.BackColor = Color.FromArgb(255, 192, 192);
         }
 
         private void btnC3_Click(object sender, EventArgs e)
@@ -172,6 +180,7 @@ namespace Tic_Tac_Toe___Joel_Camero
             }
             btnC3.Enabled = false;
             textBoxC3.Enabled = false;
+            btnC3.BackColor = Color.FromArgb(255, 192, 192);
         }
 
 
@@ -398,36 +407,51 @@ namespace Tic_Tac_Toe___Joel_Camero
         {
             //A row
             textBoxA1.Enabled = true;
+            textBoxA1.Clear();
             btnA1.Enabled = true;
-                textBoxA1.Clear();
+            btnA1.BackColor = (Color.FromArgb(192, 255, 192));
+
             textBoxA2.Enabled = true;
+            textBoxA2.Clear();
             btnA2.Enabled = true;
-                textBoxA2.Clear();
+            btnA2.BackColor = (Color.FromArgb(192, 255, 192));
+
             textBoxA3.Enabled = true;
+            textBoxA3.Clear();
             btnA3.Enabled = true;
-                textBoxA3.Clear();
-            
+            btnA3.BackColor = (Color.FromArgb(192, 255, 192));
+
             //B row
             textBoxB1.Enabled = true;
+            textBoxB1.Clear();
             btnB1.Enabled = true;
-                textBoxB1.Clear();
+            btnB1.BackColor = (Color.FromArgb(192, 255, 192));
+
             textBoxB2.Enabled = true;
+            textBoxB2.Clear();
             btnB2.Enabled = true;
-                textBoxB2.Clear();
+            btnB2.BackColor = (Color.FromArgb(192, 255, 192));
+
             textBoxB3.Enabled = true;
+            textBoxB3.Clear();
             btnB3.Enabled = true;
-                textBoxB3.Clear();
+            btnB3.BackColor = (Color.FromArgb(192, 255, 192));
 
             //C row
             textBoxC1.Enabled = true;
+            textBoxC1.Clear();
             btnC1.Enabled = true;
-                textBoxC1.Clear();
+            btnC1.BackColor = (Color.FromArgb(192, 255, 192));
+
             textBoxC2.Enabled = true;
+            textBoxC2.Clear();
             btnC2.Enabled = true;
-                textBoxC2.Clear();
+            btnC2.BackColor = (Color.FromArgb(192, 255, 192));
+
             textBoxC3.Enabled = true;
+            textBoxC3.Clear();
             btnC3.Enabled = true;
-                textBoxC3.Clear();
+            btnC3.BackColor = (Color.FromArgb(192, 255, 192));
 
             playerTurn = !playerTurn;
         }

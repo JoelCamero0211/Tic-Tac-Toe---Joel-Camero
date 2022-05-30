@@ -55,7 +55,6 @@
             this.labelButtonB = new System.Windows.Forms.Label();
             this.labelButtonC = new System.Windows.Forms.Label();
             this.labelButton2 = new System.Windows.Forms.Label();
-            this.labelButton1 = new System.Windows.Forms.Label();
             this.labelButton3 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -66,6 +65,7 @@
             this.textBoxB1 = new System.Windows.Forms.RichTextBox();
             this.winnerCheckButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelButton1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,95 +156,103 @@
             // 
             // btnA1
             // 
+            this.btnA1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnA1.Location = new System.Drawing.Point(542, 304);
             this.btnA1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnA1.Name = "btnA1";
             this.btnA1.Size = new System.Drawing.Size(101, 96);
             this.btnA1.TabIndex = 9;
             this.btnA1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnA1.UseVisualStyleBackColor = true;
+            this.btnA1.UseVisualStyleBackColor = false;
             this.btnA1.Click += new System.EventHandler(this.btnA1_Click);
             // 
             // btnC1
             // 
+            this.btnC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnC1.Location = new System.Drawing.Point(542, 509);
             this.btnC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnC1.Name = "btnC1";
             this.btnC1.Size = new System.Drawing.Size(101, 96);
             this.btnC1.TabIndex = 10;
             this.btnC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnC1.UseVisualStyleBackColor = true;
+            this.btnC1.UseVisualStyleBackColor = false;
             this.btnC1.Click += new System.EventHandler(this.btnC1_Click);
             // 
             // btnC2
             // 
+            this.btnC2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnC2.Location = new System.Drawing.Point(649, 509);
             this.btnC2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnC2.Name = "btnC2";
             this.btnC2.Size = new System.Drawing.Size(101, 96);
             this.btnC2.TabIndex = 11;
             this.btnC2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnC2.UseVisualStyleBackColor = true;
+            this.btnC2.UseVisualStyleBackColor = false;
             this.btnC2.Click += new System.EventHandler(this.btnC2_Click);
             // 
             // btnB1
             // 
+            this.btnB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnB1.Location = new System.Drawing.Point(542, 406);
             this.btnB1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnB1.Name = "btnB1";
             this.btnB1.Size = new System.Drawing.Size(101, 96);
             this.btnB1.TabIndex = 13;
             this.btnB1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnB1.UseVisualStyleBackColor = true;
+            this.btnB1.UseVisualStyleBackColor = false;
             this.btnB1.Click += new System.EventHandler(this.btnB1_Click);
             // 
             // btnB2
             // 
+            this.btnB2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnB2.Location = new System.Drawing.Point(649, 406);
             this.btnB2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnB2.Name = "btnB2";
             this.btnB2.Size = new System.Drawing.Size(101, 96);
             this.btnB2.TabIndex = 14;
             this.btnB2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnB2.UseVisualStyleBackColor = true;
+            this.btnB2.UseVisualStyleBackColor = false;
             this.btnB2.Click += new System.EventHandler(this.btnB2_Click);
             // 
             // btnB3
             // 
+            this.btnB3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnB3.Location = new System.Drawing.Point(758, 406);
             this.btnB3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnB3.Name = "btnB3";
             this.btnB3.Size = new System.Drawing.Size(101, 96);
             this.btnB3.TabIndex = 15;
             this.btnB3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnB3.UseVisualStyleBackColor = true;
+            this.btnB3.UseVisualStyleBackColor = false;
             this.btnB3.Click += new System.EventHandler(this.btnB3_Click);
             // 
             // btnA3
             // 
+            this.btnA3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnA3.Location = new System.Drawing.Point(758, 304);
             this.btnA3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnA3.Name = "btnA3";
             this.btnA3.Size = new System.Drawing.Size(101, 96);
             this.btnA3.TabIndex = 16;
             this.btnA3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnA3.UseVisualStyleBackColor = true;
+            this.btnA3.UseVisualStyleBackColor = false;
             this.btnA3.Click += new System.EventHandler(this.btnA3_Click);
             // 
             // btnA2
             // 
+            this.btnA2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnA2.Location = new System.Drawing.Point(649, 303);
             this.btnA2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnA2.Name = "btnA2";
             this.btnA2.Size = new System.Drawing.Size(101, 96);
             this.btnA2.TabIndex = 17;
             this.btnA2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnA2.UseVisualStyleBackColor = true;
+            this.btnA2.UseVisualStyleBackColor = false;
             this.btnA2.Click += new System.EventHandler(this.btnA2_Click);
             // 
             // resetBtn
             // 
-            this.resetBtn.Location = new System.Drawing.Point(756, 667);
+            this.resetBtn.Location = new System.Drawing.Point(758, 667);
             this.resetBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.resetBtn.Name = "resetBtn";
             this.resetBtn.Size = new System.Drawing.Size(107, 30);
@@ -300,13 +308,14 @@
             // 
             // btnC3
             // 
+            this.btnC3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnC3.Location = new System.Drawing.Point(758, 509);
             this.btnC3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnC3.Name = "btnC3";
             this.btnC3.Size = new System.Drawing.Size(101, 96);
             this.btnC3.TabIndex = 24;
             this.btnC3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnC3.UseVisualStyleBackColor = true;
+            this.btnC3.UseVisualStyleBackColor = false;
             this.btnC3.Click += new System.EventHandler(this.btnC3_Click);
             // 
             // label2
@@ -353,15 +362,6 @@
             this.labelButton2.Size = new System.Drawing.Size(14, 16);
             this.labelButton2.TabIndex = 29;
             this.labelButton2.Text = "2";
-            // 
-            // labelButton1
-            // 
-            this.labelButton1.AutoSize = true;
-            this.labelButton1.Location = new System.Drawing.Point(590, 285);
-            this.labelButton1.Name = "labelButton1";
-            this.labelButton1.Size = new System.Drawing.Size(14, 16);
-            this.labelButton1.TabIndex = 30;
-            this.labelButton1.Text = "1";
             // 
             // labelButton3
             // 
@@ -439,13 +439,14 @@
             // 
             // winnerCheckButton
             // 
+            this.winnerCheckButton.BackColor = System.Drawing.Color.AliceBlue;
             this.winnerCheckButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.winnerCheckButton.Location = new System.Drawing.Point(520, 651);
+            this.winnerCheckButton.Location = new System.Drawing.Point(526, 658);
             this.winnerCheckButton.Name = "winnerCheckButton";
             this.winnerCheckButton.Size = new System.Drawing.Size(197, 46);
             this.winnerCheckButton.TabIndex = 40;
             this.winnerCheckButton.Text = "Check for a Winner";
-            this.winnerCheckButton.UseVisualStyleBackColor = true;
+            this.winnerCheckButton.UseVisualStyleBackColor = false;
             this.winnerCheckButton.Click += new System.EventHandler(this.winnerCheckButton_Click);
             // 
             // pictureBox1
@@ -458,6 +459,15 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
+            // 
+            // labelButton1
+            // 
+            this.labelButton1.AutoSize = true;
+            this.labelButton1.Location = new System.Drawing.Point(590, 285);
+            this.labelButton1.Name = "labelButton1";
+            this.labelButton1.Size = new System.Drawing.Size(14, 16);
+            this.labelButton1.TabIndex = 30;
+            this.labelButton1.Text = "1";
             // 
             // TicTacToe
             // 
@@ -541,7 +551,6 @@
         private System.Windows.Forms.Label labelButtonB;
         private System.Windows.Forms.Label labelButtonC;
         private System.Windows.Forms.Label labelButton2;
-        private System.Windows.Forms.Label labelButton1;
         private System.Windows.Forms.Label labelButton3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -552,6 +561,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RichTextBox textBoxB1;
         private System.Windows.Forms.Button winnerCheckButton;
+        private System.Windows.Forms.Label labelButton1;
     }
 }
 
